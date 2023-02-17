@@ -1,9 +1,5 @@
 package org.example;
-//Пожалуйста, перейдите к классу MeetAnAgent и напишите программу, которая:
-//Просит ввести номер
-//Если ввод равен номеру секретного пароля, печатает «Привет, агент».
-//В противном случае печатает "Отказано в доступе"
-//Секретный пароль хранится в final static int PASSWORD.
+
 
 import java.util.Scanner;
 public class MeetAnAgent {
@@ -17,7 +13,7 @@ public class MeetAnAgent {
         }else {
             System.out.println("Access denied");
         }
-        
+
     }
 
 }
